@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test name="View Schedule Notification page(failed)">
+    <classes>
+      <class name="Academy.Reuninstalleduserspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Reuninstalleduserspage -->
+      <class name="Academy.Logoutpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Logoutpage -->
+      <class name="Academy.Addingcropdatapage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Addingcropdatapage -->
+      <class name="Academy.Varietiespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Varietiespage -->
+      <class name="Academy.Settingspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Settingspage -->
+      <class name="Academy.Cropcriteriapage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Cropcriteriapage -->
+      <class name="Academy.Diseasemanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Diseasemanagementpage -->
+      <class name="Academy.Curativenutrientdeficiencymanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Curativenutrientdeficiencymanagementpage -->
+      <class name="Academy.Mobilespage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Mobilespage -->
+      <class name="Academy.Advisorypage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Advisorypage -->
+      <class name="Academy.Farmuserspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Farmuserspage -->
+      <class name="Academy.Personalprofilepage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Personalprofilepage -->
+      <class name="Academy.Farmuserotplogspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Farmuserotplogspage -->
+      <class name="Academy.Cropdetailspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Cropdetailspage -->
+      <class name="Academy.Imagespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Imagespage -->
+      <class name="Academy.Withoutsigninpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Withoutsigninpage -->
+      <class name="Academy.Usermanagementpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Usermanagementpage -->
+      <class name="Academy.Dashboardpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Dashboardpage -->
+      <class name="Academy.Curativediseasemanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Curativediseasemanagementpage -->
+      <class name="Academy.Intercropactivitiespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Intercropactivitiespage -->
+      <class name="Academy.Marketpricespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Marketpricespage -->
+      <class name="Academy.Schedulenotificationpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+          <include name="schedulenotification"/>
+        </methods>
+      </class> <!-- Academy.Schedulenotificationpage -->
+      <class name="Academy.Pestmanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Pestmanagementpage -->
+      <class name="Academy.Newsnfeedspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Newsnfeedspage -->
+      <class name="Academy.Addcropfeaturepage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Addcropfeaturepage -->
+      <class name="Academy.Sendnotificationspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Sendnotificationspage -->
+      <class name="Academy.Additionalactivitiespage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Additionalactivitiespage -->
+      <class name="Academy.Curativepestmanagementpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Curativepestmanagementpage -->
+    </classes>
+  </test> <!-- View Schedule Notification page(failed) -->
+  <test name="View Mobiles page(failed)">
+    <classes>
+      <class name="Academy.Reuninstalleduserspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Reuninstalleduserspage -->
+      <class name="Academy.Logoutpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Logoutpage -->
+      <class name="Academy.Addingcropdatapage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Addingcropdatapage -->
+      <class name="Academy.Varietiespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Varietiespage -->
+      <class name="Academy.Settingspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Settingspage -->
+      <class name="Academy.Cropcriteriapage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Cropcriteriapage -->
+      <class name="Academy.Diseasemanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Diseasemanagementpage -->
+      <class name="Academy.Curativenutrientdeficiencymanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Curativenutrientdeficiencymanagementpage -->
+      <class name="Academy.Mobilespage">
+        <methods>
+          <include name="teardown"/>
+          <include name="mobiles"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Mobilespage -->
+      <class name="Academy.Advisorypage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Advisorypage -->
+      <class name="Academy.Farmuserspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Farmuserspage -->
+      <class name="Academy.Personalprofilepage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Personalprofilepage -->
+      <class name="Academy.Farmuserotplogspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Farmuserotplogspage -->
+      <class name="Academy.Cropdetailspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Cropdetailspage -->
+      <class name="Academy.Imagespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Imagespage -->
+      <class name="Academy.Withoutsigninpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Withoutsigninpage -->
+      <class name="Academy.Usermanagementpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Usermanagementpage -->
+      <class name="Academy.Dashboardpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Dashboardpage -->
+      <class name="Academy.Curativediseasemanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Curativediseasemanagementpage -->
+      <class name="Academy.Intercropactivitiespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Intercropactivitiespage -->
+      <class name="Academy.Marketpricespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Marketpricespage -->
+      <class name="Academy.Schedulenotificationpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Schedulenotificationpage -->
+      <class name="Academy.Pestmanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Pestmanagementpage -->
+      <class name="Academy.Newsnfeedspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Newsnfeedspage -->
+      <class name="Academy.Addcropfeaturepage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Addcropfeaturepage -->
+      <class name="Academy.Sendnotificationspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Sendnotificationspage -->
+      <class name="Academy.Additionalactivitiespage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Additionalactivitiespage -->
+      <class name="Academy.Curativepestmanagementpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Curativepestmanagementpage -->
+    </classes>
+  </test> <!-- View Mobiles page(failed) -->
+  <test name="View Settings page(failed)">
+    <classes>
+      <class name="Academy.Reuninstalleduserspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Reuninstalleduserspage -->
+      <class name="Academy.Logoutpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Logoutpage -->
+      <class name="Academy.Addingcropdatapage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Addingcropdatapage -->
+      <class name="Academy.Varietiespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Varietiespage -->
+      <class name="Academy.Settingspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="settings"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Settingspage -->
+      <class name="Academy.Cropcriteriapage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Cropcriteriapage -->
+      <class name="Academy.Diseasemanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Diseasemanagementpage -->
+      <class name="Academy.Curativenutrientdeficiencymanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Curativenutrientdeficiencymanagementpage -->
+      <class name="Academy.Mobilespage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Mobilespage -->
+      <class name="Academy.Advisorypage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Advisorypage -->
+      <class name="Academy.Farmuserspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Farmuserspage -->
+      <class name="Academy.Personalprofilepage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Personalprofilepage -->
+      <class name="Academy.Farmuserotplogspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Farmuserotplogspage -->
+      <class name="Academy.Cropdetailspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Cropdetailspage -->
+      <class name="Academy.Imagespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Imagespage -->
+      <class name="Academy.Withoutsigninpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Withoutsigninpage -->
+      <class name="Academy.Usermanagementpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Usermanagementpage -->
+      <class name="Academy.Dashboardpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Dashboardpage -->
+      <class name="Academy.Curativediseasemanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Curativediseasemanagementpage -->
+      <class name="Academy.Intercropactivitiespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Intercropactivitiespage -->
+      <class name="Academy.Marketpricespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Marketpricespage -->
+      <class name="Academy.Schedulenotificationpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Schedulenotificationpage -->
+      <class name="Academy.Pestmanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Pestmanagementpage -->
+      <class name="Academy.Newsnfeedspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Newsnfeedspage -->
+      <class name="Academy.Addcropfeaturepage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Addcropfeaturepage -->
+      <class name="Academy.Sendnotificationspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Sendnotificationspage -->
+      <class name="Academy.Additionalactivitiespage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Additionalactivitiespage -->
+      <class name="Academy.Curativepestmanagementpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Curativepestmanagementpage -->
+    </classes>
+  </test> <!-- View Settings page(failed) -->
+  <test name="View Logout page(failed)">
+    <classes>
+      <class name="Academy.Reuninstalleduserspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Reuninstalleduserspage -->
+      <class name="Academy.Logoutpage">
+        <methods>
+          <include name="logout"/>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Logoutpage -->
+      <class name="Academy.Addingcropdatapage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Addingcropdatapage -->
+      <class name="Academy.Varietiespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Varietiespage -->
+      <class name="Academy.Settingspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Settingspage -->
+      <class name="Academy.Cropcriteriapage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Cropcriteriapage -->
+      <class name="Academy.Diseasemanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Diseasemanagementpage -->
+      <class name="Academy.Curativenutrientdeficiencymanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Curativenutrientdeficiencymanagementpage -->
+      <class name="Academy.Mobilespage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Mobilespage -->
+      <class name="Academy.Advisorypage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Advisorypage -->
+      <class name="Academy.Farmuserspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Farmuserspage -->
+      <class name="Academy.Personalprofilepage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Personalprofilepage -->
+      <class name="Academy.Farmuserotplogspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Farmuserotplogspage -->
+      <class name="Academy.Cropdetailspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Cropdetailspage -->
+      <class name="Academy.Imagespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Imagespage -->
+      <class name="Academy.Withoutsigninpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Withoutsigninpage -->
+      <class name="Academy.Usermanagementpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Usermanagementpage -->
+      <class name="Academy.Dashboardpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Dashboardpage -->
+      <class name="Academy.Curativediseasemanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Curativediseasemanagementpage -->
+      <class name="Academy.Intercropactivitiespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Intercropactivitiespage -->
+      <class name="Academy.Marketpricespage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Marketpricespage -->
+      <class name="Academy.Schedulenotificationpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Schedulenotificationpage -->
+      <class name="Academy.Pestmanagementpage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Pestmanagementpage -->
+      <class name="Academy.Newsnfeedspage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Newsnfeedspage -->
+      <class name="Academy.Addcropfeaturepage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Addcropfeaturepage -->
+      <class name="Academy.Sendnotificationspage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Sendnotificationspage -->
+      <class name="Academy.Additionalactivitiespage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Additionalactivitiespage -->
+      <class name="Academy.Curativepestmanagementpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- Academy.Curativepestmanagementpage -->
+    </classes>
+  </test> <!-- View Logout page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

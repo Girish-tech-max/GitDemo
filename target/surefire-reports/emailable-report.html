@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Validating User login</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">14.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Dashboard page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">50.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Usermanagement page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">110.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View FarmUsers page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">91.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Advisory page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">85.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Crop Criteria page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">71.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Pest Management page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">68.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Disease Management page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">75.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Curative Pest Management page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">68.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Curative Disease Management page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">67.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Curative Nutrient Deficiency Management page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">73.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Varieties page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">65.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Intercrop Activities page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">68.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Crop details page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">73.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Additional Activities page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">68.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Add Crop Feature page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">83.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Adding cropdata page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">62.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Send Notifications page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">113.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Newsfeeds page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">61.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Market Prices page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">88.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Images page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">62.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Farm User OTP Logs page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">92.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Schedule Notification page</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">69.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Reuninstalled page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">69.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Mobiles page</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">76.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Profile page</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">63.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">View Settings page</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">78.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">View Logout page</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">66.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">24</td><td class="numi">24</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">2,042.4 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Validating User login &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Withoutsigninpage</td><td><a href="#m1"><b>withoutsignin</b>  </a></td><td class="numi">1</td><td>1606968626677</td><td class="numi">6118</td></tr>
+<tr><th colspan="4">View Dashboard page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Dashboardpage</td><td><a href="#m2"><b>dashboard</b>  </a></td><td class="numi">1</td><td>1606968640758</td><td class="numi">42986</td></tr>
+<tr><th colspan="4">View Usermanagement page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Usermanagementpage</td><td><a href="#m3"><b>usermanagement</b>  </a></td><td class="numi">1</td><td>1606968691402</td><td class="numi">103292</td></tr>
+<tr><th colspan="4">View FarmUsers page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Farmuserspage</td><td><a href="#m4"><b>farmusers</b>  </a></td><td class="numi">1</td><td>1606968802093</td><td class="numi">84084</td></tr>
+<tr><th colspan="4">View Advisory page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Advisorypage</td><td><a href="#m5"><b>advisory</b>  </a></td><td class="numi">1</td><td>1606968893592</td><td class="numi">77665</td></tr>
+<tr><th colspan="4">View Crop Criteria page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Cropcriteriapage</td><td><a href="#m6"><b>cropcriteria</b>  </a></td><td class="numi">1</td><td>1606968978721</td><td class="numi">63667</td></tr>
+<tr><th colspan="4">View Pest Management page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Pestmanagementpage</td><td><a href="#m7"><b>pestmanagement</b>  </a></td><td class="numi">1</td><td>1606969049628</td><td class="numi">61348</td></tr>
+<tr><th colspan="4">View Disease Management page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Diseasemanagementpage</td><td><a href="#m8"><b>diseasemanagement</b>  </a></td><td class="numi">1</td><td>1606969118368</td><td class="numi">67652</td></tr>
+<tr><th colspan="4">View Curative Pest Management page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Curativepestmanagementpage</td><td><a href="#m9"><b>curativepestmanagement</b>  </a></td><td class="numi">1</td><td>1606969193220</td><td class="numi">60960</td></tr>
+<tr><th colspan="4">View Curative Disease Management page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Curativediseasemanagementpage</td><td><a href="#m10"><b>curativediseasemanagement</b>  </a></td><td class="numi">1</td><td>1606969261617</td><td class="numi">60297</td></tr>
+<tr><th colspan="4">View Curative Nutrient Deficiency Management page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Curativenutrientdeficiencymanagementpage</td><td><a href="#m11"><b>curativenutrientdeficiencymanagement</b>  </a></td><td class="numi">1</td><td>1606969329322</td><td class="numi">66155</td></tr>
+<tr><th colspan="4">View Varieties page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Varietiespage</td><td><a href="#m12"><b>varieties</b>  </a></td><td class="numi">1</td><td>1606969402844</td><td class="numi">58020</td></tr>
+<tr><th colspan="4">View Intercrop Activities page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Intercropactivitiespage</td><td><a href="#m13"><b>intercropactivities</b>  </a></td><td class="numi">1</td><td>1606969468304</td><td class="numi">60939</td></tr>
+<tr><th colspan="4">View Crop details page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Cropdetailspage</td><td><a href="#m14"><b>cropdetails</b>  </a></td><td class="numi">1</td><td>1606969536891</td><td class="numi">65786</td></tr>
+<tr><th colspan="4">View Additional Activities page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Additionalactivitiespage</td><td><a href="#m15"><b>additionalpactivities</b>  </a></td><td class="numi">1</td><td>1606969609983</td><td class="numi">60877</td></tr>
+<tr><th colspan="4">View Add Crop Feature page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Addcropfeaturepage</td><td><a href="#m16"><b>addcropfeature</b>  </a></td><td class="numi">1</td><td>1606969678257</td><td class="numi">75648</td></tr>
+<tr><th colspan="4">View Adding cropdata page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Addingcropdatapage</td><td><a href="#m17"><b>addingcropdata</b>  </a></td><td class="numi">1</td><td>1606969761148</td><td class="numi">54999</td></tr>
+<tr><th colspan="4">View Send Notifications page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Sendnotificationspage</td><td><a href="#m18"><b>sendnotifications</b>  </a></td><td class="numi">1</td><td>1606969823429</td><td class="numi">106364</td></tr>
+<tr><th colspan="4">View Newsfeeds page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Newsnfeedspage</td><td><a href="#m19"><b>marketprices</b>  </a></td><td class="numi">1</td><td>1606969936714</td><td class="numi">54919</td></tr>
+<tr><th colspan="4">View Market Prices page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Marketpricespage</td><td><a href="#m20"><b>marketprices</b>  </a></td><td class="numi">1</td><td>1606969999346</td><td class="numi">80998</td></tr>
+<tr><th colspan="4">View Images page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Imagespage</td><td><a href="#m21"><b>images</b>  </a></td><td class="numi">1</td><td>1606970087485</td><td class="numi">55315</td></tr>
+<tr><th colspan="4">View Farm User OTP Logs page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Farmuserotplogspage</td><td><a href="#m22"><b>farmuserotplogs</b>  </a></td><td class="numi">1</td><td>1606970150194</td><td class="numi">85517</td></tr>
+<tr><th colspan="4">View Schedule Notification page &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Academy.Schedulenotificationpage</td><td><a href="#m23"><b>schedulenotification</b>  </a></td><td class="numi">1</td><td>1606970242947</td><td class="numi">62036</td></tr>
+<tr><th colspan="4">View Reuninstalled page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Reuninstalleduserspage</td><td><a href="#m24"><b>reuninstalledusers</b>  </a></td><td class="numi">1</td><td>1606970312892</td><td class="numi">61824</td></tr>
+<tr><th colspan="4">View Mobiles page &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Academy.Mobilespage</td><td><a href="#m25"><b>mobiles</b>  </a></td><td class="numi">1</td><td>1606970382539</td><td class="numi">68697</td></tr>
+<tr><th colspan="4">View Profile page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.Personalprofilepage</td><td><a href="#m26"><b>personalprofile</b>  </a></td><td class="numi">1</td><td>1606970459099</td><td class="numi">55851</td></tr>
+<tr><th colspan="4">View Settings page &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Academy.Settingspage</td><td><a href="#m27"><b>settings</b>  </a></td><td class="numi">1</td><td>1606970522627</td><td class="numi">70638</td></tr>
+<tr><th colspan="4">View Logout page &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Academy.Logoutpage</td><td><a href="#m28"><b>logout</b>  </a></td><td class="numi">1</td><td>1606970601014</td><td class="numi">59039</td></tr>
+</table>
+<h1>Validating User login</h1>
+<h2 id="m1">Academy.Withoutsigninpage:withoutsignin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Dashboard page</h1>
+<h2 id="m2">Academy.Dashboardpage:dashboard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Usermanagement page</h1>
+<h2 id="m3">Academy.Usermanagementpage:usermanagement</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View FarmUsers page</h1>
+<h2 id="m4">Academy.Farmuserspage:farmusers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Advisory page</h1>
+<h2 id="m5">Academy.Advisorypage:advisory</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Crop Criteria page</h1>
+<h2 id="m6">Academy.Cropcriteriapage:cropcriteria</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Pest Management page</h1>
+<h2 id="m7">Academy.Pestmanagementpage:pestmanagement</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Disease Management page</h1>
+<h2 id="m8">Academy.Diseasemanagementpage:diseasemanagement</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Curative Pest Management page</h1>
+<h2 id="m9">Academy.Curativepestmanagementpage:curativepestmanagement</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Curative Disease Management page</h1>
+<h2 id="m10">Academy.Curativediseasemanagementpage:curativediseasemanagement</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Curative Nutrient Deficiency Management page</h1>
+<h2 id="m11">Academy.Curativenutrientdeficiencymanagementpage:curativenutrientdeficiencymanagement</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Varieties page</h1>
+<h2 id="m12">Academy.Varietiespage:varieties</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Intercrop Activities page</h1>
+<h2 id="m13">Academy.Intercropactivitiespage:intercropactivities</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Crop details page</h1>
+<h2 id="m14">Academy.Cropdetailspage:cropdetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Additional Activities page</h1>
+<h2 id="m15">Academy.Additionalactivitiespage:additionalpactivities</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Add Crop Feature page</h1>
+<h2 id="m16">Academy.Addcropfeaturepage:addcropfeature</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Adding cropdata page</h1>
+<h2 id="m17">Academy.Addingcropdatapage:addingcropdata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Send Notifications page</h1>
+<h2 id="m18">Academy.Sendnotificationspage:sendnotifications</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Newsfeeds page</h1>
+<h2 id="m19">Academy.Newsnfeedspage:marketprices</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Market Prices page</h1>
+<h2 id="m20">Academy.Marketpricespage:marketprices</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Images page</h1>
+<h2 id="m21">Academy.Imagespage:images</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Farm User OTP Logs page</h1>
+<h2 id="m22">Academy.Farmuserotplogspage:farmuserotplogs</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Schedule Notification page</h1>
+<h2 id="m23">Academy.Schedulenotificationpage:schedulenotification</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;upmargin&apos;]&quot;}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-TJ32CGS&apos;, ip: &apos;192.168.26.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 550f93ac4240dea2a50a64703e37a167
+*** Element info: {Using=name, value=upmargin}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:284)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at pageObjects.Schedulenotification.getsavebutton(Schedulenotification.java:62)
+<br/>at Academy.Schedulenotificationpage.schedulenotification(Schedulenotificationpage.java:55)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Reuninstalled page</h1>
+<h2 id="m24">Academy.Reuninstalleduserspage:reuninstalledusers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Mobiles page</h1>
+<h2 id="m25">Academy.Mobilespage:mobiles</h2>
+<div style="padding-left:3em">
+<p>element not interactable
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-TJ32CGS&apos;, ip: &apos;192.168.26.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e2e784640e667be43f4209b2aa09ed09</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at Academy.Mobilespage.mobiles(Mobilespage.java:60)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Profile page</h1>
+<h2 id="m26">Academy.Personalprofilepage:personalprofile</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Settings page</h1>
+<h2 id="m27">Academy.Settingspage:settings</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;OK&apos;)]&quot;}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-TJ32CGS&apos;, ip: &apos;192.168.26.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8f073885e47854eb4b38ce79bfe78a91
+*** Element info: {Using=xpath, value=//button[contains(text(),&apos;OK&apos;)]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at pageObjects.Settings.getokpopup(Settings.java:76)
+<br/>at Academy.Settingspage.settings(Settingspage.java:55)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>View Logout page</h1>
+<h2 id="m28">Academy.Logoutpage:logout</h2>
+<div style="padding-left:3em">
+<p>element not interactable
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-TJ32CGS&apos;, ip: &apos;192.168.26.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 47d662d359dfcf5825dcb314e48fa577</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at Academy.Logoutpage.logout(Logoutpage.java:51)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

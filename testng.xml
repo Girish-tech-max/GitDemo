@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Academy.Listeners" />
+	</listeners>
+	<test name="Validating User login">
+		<classes>
+			<class name="Academy.Withoutsigninpage" />
+		</classes>
+	</test>
+	<test name="View Dashboard page">
+		<classes>
+			<class name="Academy.Dashboardpage" />
+		</classes>
+	</test>
+	<test name="View Usermanagement page">
+		<classes>
+			<class name="Academy.Usermanagementpage" />
+		</classes>
+	</test>
+
+	<test name="View FarmUsers page">
+		<classes>
+			<class name="Academy.Farmuserspage" />
+		</classes>
+	</test>
+
+	<test name="View Advisory page">
+		<classes>
+			<class name="Academy.Advisorypage" />
+		</classes>
+	</test>
+
+	<test name="View Crop Criteria page">
+		<classes>
+			<class name="Academy.Cropcriteriapage" />
+		</classes>
+	</test>
+
+	<test name="View Pest Management page">
+		<classes>
+			<class name="Academy.Pestmanagementpage" />
+		</classes>
+	</test>
+
+	<test name="View Disease Management page">
+		<classes>
+			<class name="Academy.Diseasemanagementpage" />
+		</classes>
+	</test>
+
+	<test name="View Curative Pest Management page">
+		<classes>
+			<class name="Academy.Curativepestmanagementpage" />
+		</classes>
+	</test>
+
+	<test name="View Curative Disease Management page">
+		<classes>
+			<class name="Academy.Curativediseasemanagementpage" />
+		</classes>
+	</test>
+
+	<test name="View Curative Nutrient Deficiency Management page">
+		<classes>
+			<class name="Academy.Curativenutrientdeficiencymanagementpage" />
+		</classes>
+	</test>
+	<test name="View Varieties page">
+		<classes>
+			<class name="Academy.Varietiespage" />
+		</classes>
+	</test>
+	<test name="View Intercrop Activities page">
+		<classes>
+			<class name="Academy.Intercropactivitiespage" />
+		</classes>
+	</test>
+
+	<test name="View Crop details page">
+		<classes>
+			<class name="Academy.Cropdetailspage" />
+		</classes>
+	</test>
+
+	<test name="View Additional Activities page">
+		<classes>
+			<class name="Academy.Additionalactivitiespage" />
+		</classes>
+	</test>
+
+	<test name="View Add Crop Feature page">
+		<classes>
+			<class name="Academy.Addcropfeaturepage" />
+		</classes>
+	</test>
+
+	<test name="View Adding cropdata page">
+		<classes>
+			<class name="Academy.Addingcropdatapage" />
+		</classes>
+	</test>
+
+	<test name="View Send Notifications page">
+		<classes>
+			<class name="Academy.Sendnotificationspage" />
+		</classes>
+	</test>
+	<test name="View Newsfeeds page">
+		<classes>
+			<class name="Academy.Newsnfeedspage" />
+		</classes>
+	</test>
+	<test name="View Market Prices page">
+		<classes>
+			<class name="Academy.Marketpricespage" />
+		</classes>
+	</test>
+	<test name="View Images page">
+		<classes>
+			<class name="Academy.Imagespage" />
+		</classes>
+	</test>
+
+	<test name="View Farm User OTP Logs page">
+		<classes>
+			<class name="Academy.Farmuserotplogspage" />
+		</classes>
+	</test>
+
+	<test name="View Schedule Notification page">
+		<classes>
+			<class name="Academy.Schedulenotificationpage" />
+		</classes>
+	</test>
+
+	<test name="View Reuninstalled page">
+		<classes>
+			<class name="Academy.Reuninstalleduserspage" />
+		</classes>
+	</test>
+
+	<test name="View Mobiles page">
+		<classes>
+			<class name="Academy.Mobilespage" />
+		</classes>
+	</test>
+
+	<test name="View Profile page">
+		<classes>
+			<class name="Academy.Personalprofilepage" />
+		</classes>
+	</test>
+	>
+	<test name="View Settings page">
+		<classes>
+			<class name="Academy.Settingspage" />
+		</classes>
+	</test>
+
+	<test name="View Logout page">
+		<classes>
+			<class name="Academy.Logoutpage" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!-- Suite -->
